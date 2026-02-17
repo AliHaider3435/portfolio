@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Projects | Ali Haider</title>
+  <meta name="description" content="Ali Haider AI Projects — Posture detection (CNN/YOLOv5), reinforcement learning, and AI/ML work." />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="logo" href="index.html">Ali<span>Haider</span></a>
+
+      <nav class="menu">
+        <a href="index.html">Home</a>
+        <a href="qa.html">QA</a>
+        <a class="active" href="ai.html">AI</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <a class="btn small" href="assets/Ali_Haider_CV.pdf" target="_blank">Download CV</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- HERO -->
+    <section class="section" style="padding-top: 26px;">
+      <p class="tag">AI / ML Portfolio</p>
+      <h1 style="font-size: 38px; margin-bottom: 10px;">
+        AI Projects <span style="background: linear-gradient(90deg, #7c5cff, #27c4ff); -webkit-background-clip:text; background-clip:text; color:transparent;">Showcase</span>
+      </h1>
+
+      <p class="text">
+        This page highlights my AI/ML projects including real-time posture detection, CNN training, YOLOv5 integration,
+        and reinforcement learning (Value Iteration).
+      </p>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section">
+      <h2 class="section-title">Featured AI Projects</h2>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Posture Perfect — Real-Time Posture Detection</h3>
+          <p class="text">
+            A complete AI project focused on posture detection in real time. Initially trained using a CNN model,
+            later transitioning towards YOLOv5 for better detection and performance.
+          </p>
+
+          <ul style="margin-top: 10px; color: rgba(255,255,255,0.72); line-height: 1.9;">
+            <li>• Dataset: posture images (multiple posture classes)</li>
+            <li>• Model: CNN → moving to YOLOv5</li>
+            <li>• Real-time prediction: webcam integration</li>
+            <li>• Output: posture label + feedback</li>
+          </ul>
+
+          <p class="text" style="margin-top: 10px;">
+            <b>Tech:</b> Python, OpenCV, TensorFlow/Keras, YOLOv5
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>YOLOv5 Posture Detection (Transition)</h3>
+          <p class="text">
+            Improved the posture detection project by moving from a classification approach to object detection using YOLOv5.
+            This allows detecting posture more flexibly with better real-world accuracy.
+          </p>
+
+          <ul style="margin-top: 10px; color: rgba(255,255,255,0.72); line-height: 1.9;">
+            <li>• Labeling approach for detection (bounding boxes)</li>
+            <li>• Training pipeline setup</li>
+            <li>• Real-time inference optimization</li>
+          </ul>
+
+          <p class="text" style="margin-top: 10px;">
+            <b>Tech:</b> YOLOv5, PyTorch, OpenCV
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Reinforcement Learning — Value Iteration</h3>
+          <p class="text">
+            Implemented the Value Iteration algorithm for solving Markov Decision Processes (MDPs),
+            focusing on optimal policy extraction and state-value convergence.
+          </p>
+
+          <ul style="margin-top: 10px; color: rgba(255,255,255,0.72); line-height: 1.9;">
+            <li>• Implemented Bellman optimality updates</li>
+            <li>• Policy extraction from V(s)</li>
+            <li>• Convergence threshold + gamma tuning</li>
+          </ul>
+
+          <p class="text" style="margin-top: 10px;">
+            <b>Tech:</b> Python, NumPy
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- AI SKILLS -->
+    <section class="section">
+      <h2 class="section-title">AI / ML Skills</h2>
+
+      <div class="skills">
+        <div class="pill">Python</div>
+        <div class="pill">Machine Learning</div>
+        <div class="pill">Deep Learning</div>
+        <div class="pill">CNN</div>
+        <div class="pill">YOLOv5</div>
+        <div class="pill">OpenCV</div>
+        <div class="pill">TensorFlow / Keras</div>
+        <div class="pill">PyTorch</div>
+        <div class="pill">Reinforcement Learning</div>
+        <div class="pill">Value Iteration</div>
+        <div class="pill">Data Preprocessing</div>
+        <div class="pill">Model Training</div>
+      </div>
+    </section>
+
+    <!-- AEO FRIENDLY FAQ -->
+    <section class="section">
+      <h2 class="section-title">FAQs (AEO Friendly)</h2>
+
+      <div class="card">
+        <h3>What is YOLOv5 used for?</h3>
+        <p class="text">
+          YOLOv5 is an object detection model used to detect and locate objects in images or videos in real time.
+          It is widely used for tasks like person detection, vehicle detection, and custom detection projects.
+        </p>
+
+        <h3 style="margin-top: 16px;">What is the difference between CNN and YOLO?</h3>
+        <p class="text">
+          A CNN classifier predicts a label for the whole image. YOLO performs object detection by finding objects
+          and their locations (bounding boxes) in the image, making it more suitable for real-world detection tasks.
+        </p>
+
+        <h3 style="margin-top: 16px;">What is Value Iteration in Reinforcement Learning?</h3>
+        <p class="text">
+          Value Iteration is a reinforcement learning algorithm that finds the optimal value function by repeatedly
+          applying Bellman updates until convergence, then extracting the optimal policy.
+        </p>
+
+        <h3 style="margin-top: 16px;">Can AI improve software testing?</h3>
+        <p class="text">
+          Yes. AI can help in generating test cases, detecting patterns in bugs, and improving test coverage.
+          Combining QA with AI skills helps in smarter testing and better product understanding.
+        </p>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p>© <span id="year"></span> Ali Haider • QA + AI Engineer</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").innerText = new Date().getFullYear();
+  </script>
+</body>
+</html>
