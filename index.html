@@ -4,23 +4,17 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ali Haider | QA + AI Engineer</title>
-  <meta name="description" content="Ali Haider — QA + AI Engineer. Portfolio showcasing QA testing, automation, AI/ML projects, and real-world work." />
-
-  <!-- Open Graph -->
-  <meta property="og:title" content="Ali Haider | QA + AI Engineer" />
-  <meta property="og:description" content="QA + AI Engineer portfolio — projects, skills, blog, and contact." />
-  <meta property="og:type" content="website" />
-
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <!-- NAVBAR -->
-  <header class="nav">
-    <div class="container nav-inner">
-      <a class="logo" href="index.html">Ali<span>Haider</span></a>
 
-      <nav class="menu">
+  <!-- NAVBAR -->
+  <header class="header">
+    <div class="nav container">
+      <div class="logo">Ali<span>Haider</span></div>
+
+      <nav class="nav-links">
         <a class="active" href="index.html">Home</a>
         <a href="qa.html">QA</a>
         <a href="ai.html">AI</a>
@@ -35,6 +29,8 @@
   <!-- HERO -->
   <main class="container">
     <section class="hero">
+
+      <!-- LEFT -->
       <div class="hero-left">
         <p class="tag">QA Engineer • AI/ML Background • Automation Mindset</p>
 
@@ -62,88 +58,55 @@
         </div>
       </div>
 
+      <!-- RIGHT (PROFILE CARD IMAGE) -->
       <div class="hero-right">
+        <div class="profile-card">
+          <img src="profile.png" alt="Ali Haider" class="profile-img" />
+        </div>
+      </div>
 
-  <!-- Profile Image -->
-  <div class="profile-wrap">
-    <img src="profile.png" alt="Ali Haider Profile" class="profile-img">
-  </div>
-
-  <div class="card glow">
-    <h3>Quick Summary</h3>
-    <ul>
-      <li>✔ Manual Testing (Test cases, bug reporting)</li>
-      <li>✔ SDLC / STLC understanding</li>
-      <li>✔ Automation mindset (future-ready)</li>
-      <li>✔ AI/ML projects: CNN, YOLOv5, RL</li>
-      <li>✔ Strong documentation + communication</li>
-    </ul>
-  </div>
-</div>
     </section>
 
     <!-- FEATURE CARDS -->
     <section class="grid">
-      <a class="card link-card" href="qa.html">
-        <h2>QA Portfolio</h2>
-        <p>Test cases, bug reports, QA workflow, and quality mindset.</p>
-        <span class="arrow">→</span>
-      </a>
 
-      <a class="card link-card" href="ai.html">
-        <h2>AI Projects</h2>
-        <p>Posture detection, YOLOv5, CNN training, and reinforcement learning.</p>
-        <span class="arrow">→</span>
-      </a>
-
-      <a class="card link-card" href="blog.html">
-        <h2>Blog (AEO)</h2>
-        <p>Question-based articles optimized for Google snippets & AI answers.</p>
-        <span class="arrow">→</span>
-      </a>
-    </section>
-
-    <!-- ABOUT -->
-    <section class="section">
-      <h2 class="section-title">About Me</h2>
-      <p class="text">
-        I’m Ali Haider, a QA Engineer with an AI/ML background. My focus is delivering stable, high-quality software
-        through clear test planning, structured reporting, and practical automation thinking.
-      </p>
-      <p class="text">
-        I also work on AI projects like real-time posture detection using CNN/YOLO models and reinforcement learning.
-        This mix helps me test smarter and understand products deeply.
-      </p>
-    </section>
-
-    <!-- SKILLS -->
-    <section class="section">
-      <h2 class="section-title">Skills</h2>
-
-      <div class="skills">
-        <div class="pill">Manual Testing</div>
-        <div class="pill">Test Case Design</div>
-        <div class="pill">Bug Reporting</div>
-        <div class="pill">Regression Testing</div>
-        <div class="pill">SDLC / STLC</div>
-        <div class="pill">Python</div>
-        <div class="pill">AI/ML</div>
-        <div class="pill">CNN</div>
-        <div class="pill">YOLOv5</div>
-        <div class="pill">Reinforcement Learning</div>
-        <div class="pill">Documentation</div>
-        <div class="pill">GitHub</div>
+      <div class="card">
+        <h3>QA Skills</h3>
+        <ul>
+          <li>Manual Testing (Test cases, bug reporting)</li>
+          <li>SDLC / STLC understanding</li>
+          <li>Regression Testing</li>
+          <li>API Testing (Basics)</li>
+        </ul>
       </div>
-    </section>
 
-    <!-- FOOTER -->
-    <footer class="footer">
-      <p>© <span id="year"></span> Ali Haider • QA + AI Engineer</p>
-    </footer>
+      <div class="card">
+        <h3>AI + ML Skills</h3>
+        <ul>
+          <li>Python, NumPy, Pandas</li>
+          <li>CNN, YOLOv5</li>
+          <li>Reinforcement Learning (Value Iteration)</li>
+          <li>Real-time posture detection projects</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Portfolio</h3>
+        <ul>
+          <li>QA Portfolio Page</li>
+          <li>AI Projects Page</li>
+          <li>Blog Page (AEO friendly)</li>
+          <li>Contact Page</li>
+        </ul>
+      </div>
+
+    </section>
   </main>
 
-  <script>
-    document.getElementById("year").innerText = new Date().getFullYear();
-  </script>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 Ali Haider — Built with ❤️ on GitHub Pages</p>
+  </footer>
+
 </body>
 </html>
